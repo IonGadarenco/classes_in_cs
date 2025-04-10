@@ -8,5 +8,7 @@ namespace classes_in_cs
 {
     internal interface IElectricVehicle
     {
+        int ChargeLevel { get; }
+        void Charge();
     }
 }

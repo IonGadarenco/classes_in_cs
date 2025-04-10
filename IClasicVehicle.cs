@@ -8,5 +8,7 @@ namespace classes_in_cs
 {
     internal interface IClasicVehicle
     {
+        int FuelingLevel { get; }
+        void Fueling();
     }
 }
